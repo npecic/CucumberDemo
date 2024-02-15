@@ -1,0 +1,62 @@
+{
+  "a2b14c678a6d9fc194448b3fe438a29" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fb156f8e64c3a168",
+      "status" : "broken",
+      "statusDetails" : "The plugin specification 'io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm' has a problem:\n\nCould not load plugin class 'io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm'.\n\nPlugin specifications should have the format of PLUGIN[:[PATH|[URI [OPTIONS]]]\n\nValid values for PLUGIN are: default_summary, html, json, junit, message, null_summary, pretty, progress, rerun, summary, teamcity, testng, timeline, unused, usage\n\nPLUGIN can also be a fully qualified class name, allowing registration of 3rd party plugins. The 3rd party plugin must implement io.cucumber.plugin.Plugin",
+      "time" : {
+        "start" : 1707148902470,
+        "stop" : 1707148902472,
+        "duration" : 2
+      }
+    } ]
+  },
+  "d34deb5ea3f800ac5134a3d368256c67" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fc318bf3574be31a",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=121.0.6167.140)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NPECIC-N5', ip: '172.35.2.162', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\\Users\\NEMANJ~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57097}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 484bd744d6f5001f858c7ec0189672a9",
+      "time" : {
+        "start" : 1707148927863,
+        "stop" : 1707148932521,
+        "duration" : 4658
+      }
+    } ]
+  },
+  "cf6f93233eb6caa06eab7b20391e7335" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "42f13e591047f191",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=121.0.6167.140)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NPECIC-N5', ip: '172.35.2.162', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\\Users\\NEMANJ~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57097}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 484bd744d6f5001f858c7ec0189672a9",
+      "time" : {
+        "start" : 1707148927616,
+        "stop" : 1707148932607,
+        "duration" : 4991
+      }
+    } ]
+  }
+}

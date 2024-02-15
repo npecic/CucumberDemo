@@ -1,0 +1,52 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "runners.CucumberTestNgRunner",
+    "children" : [ {
+      "name" : "setUpClass",
+      "uid" : "fb156f8e64c3a168",
+      "parentUid" : "d9a03c7309977bb807fbcea182ad0c86",
+      "status" : "broken",
+      "time" : {
+        "start" : 1707148902470,
+        "stop" : 1707148902472,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "CHROME", "99", "30" ]
+    }, {
+      "name" : "runScenario",
+      "uid" : "42f13e591047f191",
+      "parentUid" : "d9a03c7309977bb807fbcea182ad0c86",
+      "status" : "broken",
+      "time" : {
+        "start" : 1707148927616,
+        "stop" : 1707148932607,
+        "duration" : 4991
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "CHROME", "99", "30", "\"Google Search\"", "\"Optional[Google Search]\"" ]
+    } ],
+    "uid" : "runners.CucumberTestNgRunner"
+  }, {
+    "name" : "src.test.java.features.GoogleSearch_feature.Google Search",
+    "children" : [ {
+      "name" : "Google Search",
+      "uid" : "fc318bf3574be31a",
+      "parentUid" : "034f0fa48f9c59c0e2de08a211a8f93f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1707148927863,
+        "stop" : 1707148932521,
+        "duration" : 4658
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "src.test.java.features.GoogleSearch_feature.Google Search"
+  } ]
+}

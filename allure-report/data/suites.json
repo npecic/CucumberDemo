@@ -1,0 +1,60 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Test",
+    "children" : [ {
+      "name" : "Google Search",
+      "children" : [ {
+        "name" : "runners.CucumberTestNgRunner",
+        "children" : [ {
+          "name" : "setUpClass",
+          "uid" : "fb156f8e64c3a168",
+          "parentUid" : "b80503109950f43ccbe865aa06eeff6b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1707148902470,
+            "stop" : 1707148902472,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "CHROME", "99", "30" ]
+        }, {
+          "name" : "Runs Cucumber Scenarios",
+          "uid" : "42f13e591047f191",
+          "parentUid" : "b80503109950f43ccbe865aa06eeff6b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1707148927616,
+            "stop" : 1707148932607,
+            "duration" : 4991
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "CHROME", "99", "30", "\"Google Search\"", "\"Optional[Google Search]\"" ]
+        } ],
+        "uid" : "b80503109950f43ccbe865aa06eeff6b"
+      } ],
+      "uid" : "df7439d9156c99292b23fe2a97ebfb77"
+    } ],
+    "uid" : "0b78c9c59ea4f706402d505dad753d3e"
+  }, {
+    "name" : "Google Search",
+    "children" : [ {
+      "name" : "Google Search",
+      "uid" : "fc318bf3574be31a",
+      "parentUid" : "187db89b840e5d00e2c198598849c11a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1707148927863,
+        "stop" : 1707148932521,
+        "duration" : 4658
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "187db89b840e5d00e2c198598849c11a"
+  } ]
+}

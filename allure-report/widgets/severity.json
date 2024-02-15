@@ -1,0 +1,31 @@
+[ {
+  "uid" : "fc318bf3574be31a",
+  "name" : "Google Search",
+  "time" : {
+    "start" : 1707148927863,
+    "stop" : 1707148932521,
+    "duration" : 4658
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fb156f8e64c3a168",
+  "name" : "setUpClass",
+  "time" : {
+    "start" : 1707148902470,
+    "stop" : 1707148902472,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "42f13e591047f191",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1707148927616,
+    "stop" : 1707148932607,
+    "duration" : 4991
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
